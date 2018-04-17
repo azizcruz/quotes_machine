@@ -1,0 +1,55 @@
+/*Start Global Style*/
+body {
+    background-color: #34495E;
+}
+img {
+    width: 100%;
+    height: 100%;
+}
+/*End Global Style*/
+/*Start box style*/
+.card {
+    background-color: transparent;
+    border: none;
+    box-shadow: none;
+}
+.card p {
+    text-align: justify;
+    font-style: italic;
+    font-size: 20px;
+}
+.card p:before {
+    content: '"';
+}
+.card p:after {
+    content: '"';
+}
+.content-wrapper {
+    width: 100%;
+    height: 620px;
+}
+.card .card-content p {
+    margin-bottom: 15px;
+}
+.card .card-action {
+    border: none;
+    padding: 0;
+}
+.fixed-action-btn.horizontal ul li {
+    margin: 9px 15px 0 0;
+}
+/*End box style*/
+
+/*Footer Style*/
+.copyright {
+    position: fixed;
+    bottom: 40px;
+    left: 40px;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: bold;
+}
+.copyright span {
+    font-weight: normal;
+}
+/*Footer Style*/
